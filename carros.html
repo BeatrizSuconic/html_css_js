@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carros</title>
+</head>
+<body>
+
+<form action="#" method="post">
+
+    <section id="sec_dados">
+        <input type="text" name="nome" id="id_nome" placeholder="digite seu nome">
+        <label for="id_data">data de nascimento</label>
+        <input type="date" name="data" id="id_data" >
+        <input type="number" name="cpf" id="id_cpf" placeholder="digite seu CPF">        
+    </section>
+    
+    <section id="sec_carros">
+
+        <div id="lista_carros"></div>        
+
+        <div>
+            <button type="reset">apagar tudo</button>
+            <button type="button" onclick="adic_carro()">adicionar carro</button>
+        </div> 
+        
+    </section>
+
+    <section id="sec_total">
+        <input type="number" name="total" id="id_total" readonly value=0>
+    </section>
+
+</form>
+</body>
+<script src="scripts.js"></script>
+</html>
