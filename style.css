@@ -1,0 +1,8 @@
+.deletar {
+    transition: 1s all;
+}
+
+.deletar:hover {
+    color: red;
+    cursor: pointer;
+}

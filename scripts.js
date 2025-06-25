@@ -5,12 +5,12 @@ function adic_carro() {
     const carros = document.getElementById('lista_carros');
 
     const html_carro = `<div class="item_carros">
-            <input type="number" name="posicao_carro" readonly>
-            <input type="text" placeholder="modelo do carro">
-            <input type="text" placeholder="cor do carro">
-            <input type="number" placeholder="valor do carro" name="valor_carro" onchange="calcula_totais()">
-            <a class="deletar">deletar</a>
-        </div>`;
+                            <input type="number" name="posicao_carro" readonly>
+                            <input type="text" placeholder="modelo do carro">
+                            <input type="text" placeholder="cor do carro">
+                            <input type="number" placeholder="valor do carro" name="valor_carro" onchange="calcula_totais()">
+                            <a class="deletar">deletar</a>
+                        </div>`;
 
     carros.insertAdjacentHTML('beforeend', html_carro);
     coloca_itens()
